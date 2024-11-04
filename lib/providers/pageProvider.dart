@@ -6,7 +6,6 @@ class PageProvider extends ChangeNotifier{
   PageProvider(){
   getPage();
   }
-
   changePage(int index){
     lastpage = index;
     setPage(index);
